@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>root</key>
+	<dict>
+		<key>departments</key>
+		<array>
+			<string>Sales</string>
+			<string>Support</string>
+			<string>Admin</string>
+			<string>Development</string>
+			<string>Accounts</string>
+		</array>
+		<key>eyecolor</key>
+		<array>
+			<string>Blue</string>
+			<string>Brown</string>
+			<string>Green</string>
+			<string>Flecked</string>
+		</array>
+		<key>haircolor</key>
+		<array>
+			<string>Black</string>
+			<string>Brown</string>
+			<string>Blonde</string>
+			<string>Red</string>
+			<string>Strawberry Blonde</string>
+			<string>Auburn</string>
+			<string>Gray</string>
+		</array>
+	</dict>
+</dict>
+</plist>

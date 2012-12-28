@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C40CEA3E14EC3F2900BBC155 /* SAEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40CEA2214EC3F2900BBC155 /* SAEditViewController.m */; };
+		C40CEA3F14EC3F2900BBC155 /* SASection.m in Sources */ = {isa = PBXBuildFile; fileRef = C40CEA2414EC3F2900BBC155 /* SASection.m */; };
+		C40CEA4014EC3F2900BBC155 /* SARow.m in Sources */ = {isa = PBXBuildFile; fileRef = C40CEA2614EC3F2900BBC155 /* SARow.m */; };
+		C40CEA4114EC3F2900BBC155 /* SADateEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40CEA2914EC3F2900BBC155 /* SADateEditViewController.m */; };
+		C40CEA4214EC3F2900BBC155 /* SADateEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40CEA2A14EC3F2900BBC155 /* SADateEditViewController.xib */; };
+		C40CEA4314EC3F2900BBC155 /* SAPickerEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40CEA2C14EC3F2900BBC155 /* SAPickerEditViewController.m */; };
+		C40CEA4414EC3F2900BBC155 /* SAPickerEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40CEA2D14EC3F2900BBC155 /* SAPickerEditViewController.xib */; };
+		C40CEA4514EC3F2900BBC155 /* SAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40CEA2F14EC3F2900BBC155 /* SAMapViewController.m */; };
+		C40CEA4614EC3F2900BBC155 /* SAMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40CEA3014EC3F2900BBC155 /* SAMapViewController.xib */; };
+		C40CEA4714EC3F2900BBC155 /* SAMapAnnotations.m in Sources */ = {isa = PBXBuildFile; fileRef = C40CEA3214EC3F2900BBC155 /* SAMapAnnotations.m */; };
+		C40CEA4814EC3F2900BBC155 /* SAMapTag.m in Sources */ = {isa = PBXBuildFile; fileRef = C40CEA3414EC3F2900BBC155 /* SAMapTag.m */; };
+		C40CEA4914EC3F2900BBC155 /* SAAnnotationEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = C40CEA3614EC3F2900BBC155 /* SAAnnotationEdit.m */; };
+		C40CEA4A14EC3F2900BBC155 /* SAAnnotationEdit.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40CEA3714EC3F2900BBC155 /* SAAnnotationEdit.xib */; };
+		C40CEA4B14EC3F2900BBC155 /* SAImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40CEA3914EC3F2900BBC155 /* SAImagePickerController.m */; };
+		C40CEA4C14EC3F2900BBC155 /* SAImagePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40CEA3A14EC3F2900BBC155 /* SAImagePickerController.xib */; };
+		C40CEA4D14EC3F2900BBC155 /* SAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40CEA3C14EC3F2900BBC155 /* SAWebViewController.m */; };
+		C40CEA4E14EC3F2900BBC155 /* SAWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40CEA3D14EC3F2900BBC155 /* SAWebViewController.xib */; };
+		C415DAC814F2DA5B00A73BD8 /* SAOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = C415DAC714F2DA5B00A73BD8 /* SAOverlay.m */; };
+		C4DD342314E03653004290BD /* SADefinitions.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4DD342214E03653004290BD /* SADefinitions.plist */; };
+		C4E2BD0814E1AB470059A6E5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E2BD0714E1AB470059A6E5 /* AssetsLibrary.framework */; };
+		D22F958F14F5049E00353DC6 /* SAMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D22F958E14F5049E00353DC6 /* SAMessageView.m */; };
+		D283FDF514E952D400D0D300 /* webViewForward.png in Resources */ = {isa = PBXBuildFile; fileRef = D283FDF314E952D400D0D300 /* webViewForward.png */; };
+		D283FDF614E952D400D0D300 /* webViewBack.png in Resources */ = {isa = PBXBuildFile; fileRef = D283FDF414E952D400D0D300 /* webViewBack.png */; };
+		D283FDF914E960CA00D0D300 /* backButtonHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = D283FDF714E960CA00D0D300 /* backButtonHighlighted.png */; };
+		D283FDFA14E960CA00D0D300 /* forwardButtonHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = D283FDF814E960CA00D0D300 /* forwardButtonHighlighted.png */; };
+		D283FDFD14E9663C00D0D300 /* forwardButtonDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = D283FDFB14E9663C00D0D300 /* forwardButtonDisabled.png */; };
+		D283FDFE14E9663C00D0D300 /* backButtonDisabled.png in Resources */ = {isa = PBXBuildFile; fileRef = D283FDFC14E9663C00D0D300 /* backButtonDisabled.png */; };
+		D2DB345B14ED1E5F00E25F9F /* SAChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB345914ED1E5F00E25F9F /* SAChartController.m */; };
+		D2DB345C14ED1E5F00E25F9F /* SAChartController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DB345A14ED1E5F00E25F9F /* SAChartController.xib */; };
+		D2DB346014ED1E9100E25F9F /* SAChartDef.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB345F14ED1E9100E25F9F /* SAChartDef.m */; };
+		D2DB346314ED2B8800E25F9F /* SAChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB346214ED2B8800E25F9F /* SAChartView.m */; };
+		E550C54414D6C84C0030B6EC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E550C54314D6C84C0030B6EC /* UIKit.framework */; };
+		E550C54614D6C84C0030B6EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E550C54514D6C84C0030B6EC /* Foundation.framework */; };
+		E550C54814D6C84C0030B6EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E550C54714D6C84C0030B6EC /* CoreGraphics.framework */; };
+		E550C54E14D6C84C0030B6EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E550C54C14D6C84C0030B6EC /* InfoPlist.strings */; };
+		E550C55014D6C84C0030B6EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E550C54F14D6C84C0030B6EC /* main.m */; };
+		E550C55414D6C84C0030B6EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E550C55314D6C84C0030B6EC /* AppDelegate.m */; };
+		E550C55714D6C84C0030B6EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E550C55614D6C84C0030B6EC /* ViewController.m */; };
+		E550C55A14D6C84C0030B6EC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E550C55814D6C84C0030B6EC /* ViewController.xib */; };
+		E584C43614E01F41007DECC8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E584C43414E01F41007DECC8 /* MediaPlayer.framework */; };
+		E584C43714E01F41007DECC8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E584C43514E01F41007DECC8 /* MobileCoreServices.framework */; };
+		E59BD67F14E1477F00F75E70 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E59BD67E14E1477F00F75E70 /* QuartzCore.framework */; };
+		E5D70D1314E000AD00361C7C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D70D1214E000AD00361C7C /* MapKit.framework */; };
+		E5D70D1514E006BA00361C7C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D70D1414E006BA00361C7C /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C40CEA2114EC3F2900BBC155 /* SAEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAEditViewController.h; sourceTree = "<group>"; };
+		C40CEA2214EC3F2900BBC155 /* SAEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAEditViewController.m; sourceTree = "<group>"; };
+		C40CEA2314EC3F2900BBC155 /* SASection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASection.h; sourceTree = "<group>"; };
+		C40CEA2414EC3F2900BBC155 /* SASection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASection.m; sourceTree = "<group>"; };
+		C40CEA2514EC3F2900BBC155 /* SARow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SARow.h; sourceTree = "<group>"; };
+		C40CEA2614EC3F2900BBC155 /* SARow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SARow.m; sourceTree = "<group>"; };
+		C40CEA2714EC3F2900BBC155 /* SAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAConstants.h; sourceTree = "<group>"; };
+		C40CEA2814EC3F2900BBC155 /* SADateEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SADateEditViewController.h; sourceTree = "<group>"; };
+		C40CEA2914EC3F2900BBC155 /* SADateEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SADateEditViewController.m; sourceTree = "<group>"; };
+		C40CEA2A14EC3F2900BBC155 /* SADateEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SADateEditViewController.xib; sourceTree = "<group>"; };
+		C40CEA2B14EC3F2900BBC155 /* SAPickerEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPickerEditViewController.h; sourceTree = "<group>"; };
+		C40CEA2C14EC3F2900BBC155 /* SAPickerEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAPickerEditViewController.m; sourceTree = "<group>"; };
+		C40CEA2D14EC3F2900BBC155 /* SAPickerEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAPickerEditViewController.xib; sourceTree = "<group>"; };
+		C40CEA2E14EC3F2900BBC155 /* SAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMapViewController.h; sourceTree = "<group>"; };
+		C40CEA2F14EC3F2900BBC155 /* SAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMapViewController.m; sourceTree = "<group>"; };
+		C40CEA3014EC3F2900BBC155 /* SAMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAMapViewController.xib; sourceTree = "<group>"; };
+		C40CEA3114EC3F2900BBC155 /* SAMapAnnotations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMapAnnotations.h; sourceTree = "<group>"; };
+		C40CEA3214EC3F2900BBC155 /* SAMapAnnotations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMapAnnotations.m; sourceTree = "<group>"; };
+		C40CEA3314EC3F2900BBC155 /* SAMapTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMapTag.h; sourceTree = "<group>"; };
+		C40CEA3414EC3F2900BBC155 /* SAMapTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMapTag.m; sourceTree = "<group>"; };
+		C40CEA3514EC3F2900BBC155 /* SAAnnotationEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAAnnotationEdit.h; sourceTree = "<group>"; };
+		C40CEA3614EC3F2900BBC155 /* SAAnnotationEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAAnnotationEdit.m; sourceTree = "<group>"; };
+		C40CEA3714EC3F2900BBC155 /* SAAnnotationEdit.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAAnnotationEdit.xib; sourceTree = "<group>"; };
+		C40CEA3814EC3F2900BBC155 /* SAImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAImagePickerController.h; sourceTree = "<group>"; };
+		C40CEA3914EC3F2900BBC155 /* SAImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAImagePickerController.m; sourceTree = "<group>"; };
+		C40CEA3A14EC3F2900BBC155 /* SAImagePickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAImagePickerController.xib; sourceTree = "<group>"; };
+		C40CEA3B14EC3F2900BBC155 /* SAWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAWebViewController.h; sourceTree = "<group>"; };
+		C40CEA3C14EC3F2900BBC155 /* SAWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAWebViewController.m; sourceTree = "<group>"; };
+		C40CEA3D14EC3F2900BBC155 /* SAWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAWebViewController.xib; sourceTree = "<group>"; };
+		C415DAC614F2DA5B00A73BD8 /* SAOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAOverlay.h; sourceTree = "<group>"; };
+		C415DAC714F2DA5B00A73BD8 /* SAOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAOverlay.m; sourceTree = "<group>"; };
+		C4DD342214E03653004290BD /* SADefinitions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SADefinitions.plist; sourceTree = "<group>"; };
+		C4E2BD0714E1AB470059A6E5 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		D22F958D14F5049E00353DC6 /* SAMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMessageView.h; sourceTree = "<group>"; };
+		D22F958E14F5049E00353DC6 /* SAMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMessageView.m; sourceTree = "<group>"; };
+		D283FDF314E952D400D0D300 /* webViewForward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webViewForward.png; sourceTree = "<group>"; };
+		D283FDF414E952D400D0D300 /* webViewBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = webViewBack.png; sourceTree = "<group>"; };
+		D283FDF714E960CA00D0D300 /* backButtonHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButtonHighlighted.png; sourceTree = "<group>"; };
+		D283FDF814E960CA00D0D300 /* forwardButtonHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButtonHighlighted.png; sourceTree = "<group>"; };
+		D283FDFB14E9663C00D0D300 /* forwardButtonDisabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardButtonDisabled.png; sourceTree = "<group>"; };
+		D283FDFC14E9663C00D0D300 /* backButtonDisabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButtonDisabled.png; sourceTree = "<group>"; };
+		D2DB345814ED1E5F00E25F9F /* SAChartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAChartController.h; sourceTree = "<group>"; };
+		D2DB345914ED1E5F00E25F9F /* SAChartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAChartController.m; sourceTree = "<group>"; };
+		D2DB345A14ED1E5F00E25F9F /* SAChartController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SAChartController.xib; sourceTree = "<group>"; };
+		D2DB345F14ED1E9100E25F9F /* SAChartDef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAChartDef.m; sourceTree = "<group>"; };
+		D2DB346114ED2B8800E25F9F /* SAChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAChartView.h; sourceTree = "<group>"; };
+		D2DB346214ED2B8800E25F9F /* SAChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAChartView.m; sourceTree = "<group>"; };
+		E550C53F14D6C84C0030B6EC /* EditMyFields.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EditMyFields.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E550C54314D6C84C0030B6EC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E550C54514D6C84C0030B6EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E550C54714D6C84C0030B6EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E550C54B14D6C84C0030B6EC /* EditMyFields-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EditMyFields-Info.plist"; sourceTree = "<group>"; };
+		E550C54D14D6C84C0030B6EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E550C54F14D6C84C0030B6EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E550C55114D6C84C0030B6EC /* EditMyFields-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EditMyFields-Prefix.pch"; sourceTree = "<group>"; };
+		E550C55214D6C84C0030B6EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E550C55314D6C84C0030B6EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E550C55514D6C84C0030B6EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E550C55614D6C84C0030B6EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E550C55914D6C84C0030B6EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E584C43414E01F41007DECC8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E584C43514E01F41007DECC8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E59BD67E14E1477F00F75E70 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E5D70D1214E000AD00361C7C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E5D70D1414E006BA00361C7C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E550C53C14D6C84C0030B6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4E2BD0814E1AB470059A6E5 /* AssetsLibrary.framework in Frameworks */,
+				E59BD67F14E1477F00F75E70 /* QuartzCore.framework in Frameworks */,
+				E584C43614E01F41007DECC8 /* MediaPlayer.framework in Frameworks */,
+				E584C43714E01F41007DECC8 /* MobileCoreServices.framework in Frameworks */,
+				E5D70D1514E006BA00361C7C /* CoreLocation.framework in Frameworks */,
+				E5D70D1314E000AD00361C7C /* MapKit.framework in Frameworks */,
+				E550C54414D6C84C0030B6EC /* UIKit.framework in Frameworks */,
+				E550C54614D6C84C0030B6EC /* Foundation.framework in Frameworks */,
+				E550C54814D6C84C0030B6EC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C43E1A3714EBD0380017F172 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D283FDFC14E9663C00D0D300 /* backButtonDisabled.png */,
+				D283FDF714E960CA00D0D300 /* backButtonHighlighted.png */,
+				D283FDF814E960CA00D0D300 /* forwardButtonHighlighted.png */,
+				D283FDF314E952D400D0D300 /* webViewForward.png */,
+				D283FDF414E952D400D0D300 /* webViewBack.png */,
+				D283FDFB14E9663C00D0D300 /* forwardButtonDisabled.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E550C53414D6C84C0030B6EC = {
+			isa = PBXGroup;
+			children = (
+				C4E2BD0714E1AB470059A6E5 /* AssetsLibrary.framework */,
+				E59BD67E14E1477F00F75E70 /* QuartzCore.framework */,
+				E584C43414E01F41007DECC8 /* MediaPlayer.framework */,
+				E584C43514E01F41007DECC8 /* MobileCoreServices.framework */,
+				E5D70D1414E006BA00361C7C /* CoreLocation.framework */,
+				E5D70D1214E000AD00361C7C /* MapKit.framework */,
+				E550C56014D6C86D0030B6EC /* SAEditClasses */,
+				C40CEA2114EC3F2900BBC155 /* SAEditViewController.h */,
+				C40CEA2214EC3F2900BBC155 /* SAEditViewController.m */,
+				D22F958D14F5049E00353DC6 /* SAMessageView.h */,
+				D22F958E14F5049E00353DC6 /* SAMessageView.m */,
+				D2DB345F14ED1E9100E25F9F /* SAChartDef.m */,
+				D2DB345814ED1E5F00E25F9F /* SAChartController.h */,
+				D2DB345914ED1E5F00E25F9F /* SAChartController.m */,
+				C415DAC614F2DA5B00A73BD8 /* SAOverlay.h */,
+				C415DAC714F2DA5B00A73BD8 /* SAOverlay.m */,
+				D2DB345A14ED1E5F00E25F9F /* SAChartController.xib */,
+				D2DB346114ED2B8800E25F9F /* SAChartView.h */,
+				D2DB346214ED2B8800E25F9F /* SAChartView.m */,
+				C40CEA2314EC3F2900BBC155 /* SASection.h */,
+				C40CEA2414EC3F2900BBC155 /* SASection.m */,
+				C40CEA2514EC3F2900BBC155 /* SARow.h */,
+				C40CEA2614EC3F2900BBC155 /* SARow.m */,
+				C40CEA2714EC3F2900BBC155 /* SAConstants.h */,
+				C40CEA2814EC3F2900BBC155 /* SADateEditViewController.h */,
+				C40CEA2914EC3F2900BBC155 /* SADateEditViewController.m */,
+				C40CEA2A14EC3F2900BBC155 /* SADateEditViewController.xib */,
+				C40CEA2B14EC3F2900BBC155 /* SAPickerEditViewController.h */,
+				C40CEA2C14EC3F2900BBC155 /* SAPickerEditViewController.m */,
+				C40CEA2D14EC3F2900BBC155 /* SAPickerEditViewController.xib */,
+				C40CEA2E14EC3F2900BBC155 /* SAMapViewController.h */,
+				C40CEA2F14EC3F2900BBC155 /* SAMapViewController.m */,
+				C40CEA3014EC3F2900BBC155 /* SAMapViewController.xib */,
+				C40CEA3114EC3F2900BBC155 /* SAMapAnnotations.h */,
+				C40CEA3214EC3F2900BBC155 /* SAMapAnnotations.m */,
+				C40CEA3314EC3F2900BBC155 /* SAMapTag.h */,
+				C40CEA3414EC3F2900BBC155 /* SAMapTag.m */,
+				C40CEA3514EC3F2900BBC155 /* SAAnnotationEdit.h */,
+				C40CEA3614EC3F2900BBC155 /* SAAnnotationEdit.m */,
+				C40CEA3714EC3F2900BBC155 /* SAAnnotationEdit.xib */,
+				C40CEA3814EC3F2900BBC155 /* SAImagePickerController.h */,
+				C40CEA3914EC3F2900BBC155 /* SAImagePickerController.m */,
+				C40CEA3A14EC3F2900BBC155 /* SAImagePickerController.xib */,
+				C40CEA3B14EC3F2900BBC155 /* SAWebViewController.h */,
+				C40CEA3C14EC3F2900BBC155 /* SAWebViewController.m */,
+				C40CEA3D14EC3F2900BBC155 /* SAWebViewController.xib */,
+				E550C54914D6C84C0030B6EC /* EditMyFields */,
+				E550C54214D6C84C0030B6EC /* Frameworks */,
+				E550C54014D6C84C0030B6EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E550C54014D6C84C0030B6EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E550C53F14D6C84C0030B6EC /* EditMyFields.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E550C54214D6C84C0030B6EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E550C54314D6C84C0030B6EC /* UIKit.framework */,
+				E550C54514D6C84C0030B6EC /* Foundation.framework */,
+				E550C54714D6C84C0030B6EC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E550C54914D6C84C0030B6EC /* EditMyFields */ = {
+			isa = PBXGroup;
+			children = (
+				E550C55214D6C84C0030B6EC /* AppDelegate.h */,
+				E550C55314D6C84C0030B6EC /* AppDelegate.m */,
+				E550C55514D6C84C0030B6EC /* ViewController.h */,
+				E550C55614D6C84C0030B6EC /* ViewController.m */,
+				E550C55814D6C84C0030B6EC /* ViewController.xib */,
+				C4DD342214E03653004290BD /* SADefinitions.plist */,
+				E550C54A14D6C84C0030B6EC /* Supporting Files */,
+			);
+			path = EditMyFields;
+			sourceTree = "<group>";
+		};
+		E550C54A14D6C84C0030B6EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E550C54B14D6C84C0030B6EC /* EditMyFields-Info.plist */,
+				E550C54C14D6C84C0030B6EC /* InfoPlist.strings */,
+				E550C54F14D6C84C0030B6EC /* main.m */,
+				E550C55114D6C84C0030B6EC /* EditMyFields-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E550C56014D6C86D0030B6EC /* SAEditClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C43E1A3714EBD0380017F172 /* Images */,
+			);
+			name = SAEditClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E550C53E14D6C84C0030B6EC /* EditMyFields */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E550C55D14D6C84C0030B6EC /* Build configuration list for PBXNativeTarget "EditMyFields" */;
+			buildPhases = (
+				E550C53B14D6C84C0030B6EC /* Sources */,
+				E550C53C14D6C84C0030B6EC /* Frameworks */,
+				E550C53D14D6C84C0030B6EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EditMyFields;
+			productName = EditMyFields;
+			productReference = E550C53F14D6C84C0030B6EC /* EditMyFields.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E550C53614D6C84C0030B6EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E550C53914D6C84C0030B6EC /* Build configuration list for PBXProject "EditMyFields" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E550C53414D6C84C0030B6EC;
+			productRefGroup = E550C54014D6C84C0030B6EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E550C53E14D6C84C0030B6EC /* EditMyFields */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E550C53D14D6C84C0030B6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E550C54E14D6C84C0030B6EC /* InfoPlist.strings in Resources */,
+				E550C55A14D6C84C0030B6EC /* ViewController.xib in Resources */,
+				C4DD342314E03653004290BD /* SADefinitions.plist in Resources */,
+				D283FDF514E952D400D0D300 /* webViewForward.png in Resources */,
+				D283FDF614E952D400D0D300 /* webViewBack.png in Resources */,
+				D283FDF914E960CA00D0D300 /* backButtonHighlighted.png in Resources */,
+				D283FDFA14E960CA00D0D300 /* forwardButtonHighlighted.png in Resources */,
+				D283FDFD14E9663C00D0D300 /* forwardButtonDisabled.png in Resources */,
+				D283FDFE14E9663C00D0D300 /* backButtonDisabled.png in Resources */,
+				C40CEA4214EC3F2900BBC155 /* SADateEditViewController.xib in Resources */,
+				C40CEA4414EC3F2900BBC155 /* SAPickerEditViewController.xib in Resources */,
+				C40CEA4614EC3F2900BBC155 /* SAMapViewController.xib in Resources */,
+				C40CEA4A14EC3F2900BBC155 /* SAAnnotationEdit.xib in Resources */,
+				C40CEA4C14EC3F2900BBC155 /* SAImagePickerController.xib in Resources */,
+				C40CEA4E14EC3F2900BBC155 /* SAWebViewController.xib in Resources */,
+				D2DB345C14ED1E5F00E25F9F /* SAChartController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E550C53B14D6C84C0030B6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E550C55014D6C84C0030B6EC /* main.m in Sources */,
+				E550C55414D6C84C0030B6EC /* AppDelegate.m in Sources */,
+				E550C55714D6C84C0030B6EC /* ViewController.m in Sources */,
+				C40CEA3E14EC3F2900BBC155 /* SAEditViewController.m in Sources */,
+				C40CEA3F14EC3F2900BBC155 /* SASection.m in Sources */,
+				C40CEA4014EC3F2900BBC155 /* SARow.m in Sources */,
+				C40CEA4114EC3F2900BBC155 /* SADateEditViewController.m in Sources */,
+				C40CEA4314EC3F2900BBC155 /* SAPickerEditViewController.m in Sources */,
+				C40CEA4514EC3F2900BBC155 /* SAMapViewController.m in Sources */,
+				C40CEA4714EC3F2900BBC155 /* SAMapAnnotations.m in Sources */,
+				C40CEA4814EC3F2900BBC155 /* SAMapTag.m in Sources */,
+				C40CEA4914EC3F2900BBC155 /* SAAnnotationEdit.m in Sources */,
+				C40CEA4B14EC3F2900BBC155 /* SAImagePickerController.m in Sources */,
+				C40CEA4D14EC3F2900BBC155 /* SAWebViewController.m in Sources */,
+				D2DB345B14ED1E5F00E25F9F /* SAChartController.m in Sources */,
+				D2DB346014ED1E9100E25F9F /* SAChartDef.m in Sources */,
+				D2DB346314ED2B8800E25F9F /* SAChartView.m in Sources */,
+				C415DAC814F2DA5B00A73BD8 /* SAOverlay.m in Sources */,
+				D22F958F14F5049E00353DC6 /* SAMessageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E550C54C14D6C84C0030B6EC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E550C54D14D6C84C0030B6EC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E550C55814D6C84C0030B6EC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E550C55914D6C84C0030B6EC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E550C55B14D6C84C0030B6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E550C55C14D6C84C0030B6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E550C55E14D6C84C0030B6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EditMyFields/EditMyFields-Prefix.pch";
+				INFOPLIST_FILE = "EditMyFields/EditMyFields-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E550C55F14D6C84C0030B6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EditMyFields/EditMyFields-Prefix.pch";
+				INFOPLIST_FILE = "EditMyFields/EditMyFields-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E550C53914D6C84C0030B6EC /* Build configuration list for PBXProject "EditMyFields" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E550C55B14D6C84C0030B6EC /* Debug */,
+				E550C55C14D6C84C0030B6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E550C55D14D6C84C0030B6EC /* Build configuration list for PBXNativeTarget "EditMyFields" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E550C55E14D6C84C0030B6EC /* Debug */,
+				E550C55F14D6C84C0030B6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E550C53614D6C84C0030B6EC /* Project object */;
+}
